@@ -1,0 +1,10 @@
+server {
+listen 443 ssl;
+server_name leoambo.com
+ssl_certificate /home/ubuntu/gal1/galery1/galery1/cert0.pem;
+ssl_certificate_key /home/ubuntu/gal1/galery1/galery1/privkey0.pem;
+ssl_protocols TLSv1 TLSv1.1 TLSv1.2;
+ssl_ciphers HIGH:!aNULL:!MD5; 
+
+
+}
